@@ -6,7 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "template",
+    "cli"
+  ],
+  "author": "biansj",
+  "license": "MIT",
+  "bin": {
+    "lex": "./bin/lex"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cli-table": "^0.3.1",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^4.0.4"
+  }
 }
